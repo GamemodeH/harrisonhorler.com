@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #0282c4;
 }
 
 .text-primary {
@@ -164,7 +164,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header/1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -172,6 +172,9 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
 }
 
 header.masthead .intro-text {
@@ -242,7 +245,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgb(2, 130, 196);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
