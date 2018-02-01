@@ -1,7 +1,7 @@
 <?php
 // Check for empty fields
-if(empty($_POST['firstname'])      ||
-   empty($_POST['lastname'])     ||
+if(empty($_POST['firstname']) ||
+   empty($_POST['lastname'])  ||
    empty($_POST['email'])     ||
    empty($_POST['message'])   ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
